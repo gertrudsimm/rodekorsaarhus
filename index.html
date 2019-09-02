@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bliv Frivillig - Røde Kors Aarhus</title>
+  <link rel="icon" type="image/png" href="img/logo.png">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+</head>
+
+<body>
+
+  <main>
+
+    <section id="home" class="page">
+      <div class="titel-holder">
+      <h1>BLIV FRIVILLIG</h1>
+      </div>
+      <div class="logo-holder">
+
+        <img src="img/logo.png" alt="Røde Kors" class="logo">
+        <p>RØDE KORS AARHUS</p>
+      </div>
+
+      <nav id="relative">
+        <a id="mark" onclick="showCV()">Én dag</a>
+        <a onclick="showAbout()">Hver uge</a>
+        <a onclick="showPro()">Hver måned</a>
+      </nav>
+
+<div id="instafeed"></div>
+<div id="filter"></div>
+<div id="fakta"></div>
+
+    </section>
+
+
+    <section id="projects" class="page">
+      <div class="backwrap" id="left">
+        <div class="goback" onclick="showHomePro()">
+          <nav class="navback">
+          </nav>
+          <a class="back-p">Tilbage</a>
+        </div>
+      </div>
+      <div id="me-wrap" class="slide">
+        <div id="me-content">
+          <!-- OPT Hver måned -->
+<h2>Månedligt</h2>
+<p class="lead">Til dig, der har tid til frivillighed en gang om måneden.</p>
+
+
+
+        </div>
+      </div>
+
+    </section>
+
+
+    <section id="cv" class="page">
+      <div class="backwrap">
+        <div class="goback" onclick="showHomeCV()" id="back-cv">
+          <nav class="navback">
+          </nav>
+          <a class="back-p">Tilbage</a>
+        </div>
+      </div>
+      <div id="cv-wrap" class="slide">
+        <div id="cv-content">
+
+          <!-- OPT En dag-->
+          <h2>Et par timer</h2>
+          <p class="lead">Til dig, der vil sætte en dag af i frivillighedens navn.</p>
+
+        </div>
+
+      </div>
+
+
+
+    </section>
+
+
+    <section id="about" class="page">
+      <div class="backwrap" onclick="showHomeAbout()" id="middle">
+        <nav class="navback">
+        </nav>
+        <a class="back-p">Tilbage</a>
+      </div>
+
+      <div id="about-wrap" class="slide">
+        <div id="about-content">
+
+          <!-- OPT hver unge -->
+          <h2>Ugenligt</h2>
+          <p class="lead">Til dig, der har overskud til frivillighed hver uge.</p>
+
+        </div>
+
+      </div>
+
+
+
+
+    </section>
+
+    <footer>
+      <p>Nørre Allé 32 <br/> 8000 Aarhus C</p>
+      <p>aarhus@<br/>rodekors.dk</p>
+      <p>86 12 24 60</p>
+    </footer>
+  </main>
+
+
+  <script src="main.js"></script>
+  <script src="instafeed.js"></script>
+
+</body>
+
+</html>
